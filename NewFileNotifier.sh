@@ -1,8 +1,8 @@
-#################################################################################################
+############################################################################################################
 # For use with Synology DSM. Create a scheduled task, and add the following under
 # 'Task Settings' > 'Run Command' > 'User defined script':
 # Make sure to replace the following strings with correct values: DIRECTORY_NAME, MYEMAIL@MYDOMAIN.COM
-#####################
+############################################################################################################
 
 cd '/volume1/DIRECTORY_NAME/'
 ls > current_dir
